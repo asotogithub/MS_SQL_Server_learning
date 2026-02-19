@@ -5,12 +5,13 @@ Introduction to MS SQL Server
 # T-SQL (Transact SQL Lenguaje)
 
 # Common @@ Variables
-#📘 Common @@ System Functions in SQL Server 
+📘 Common @@ System Functions in SQL Server 
 <table>
 <tr>
 <td width="33%" valign="top">
-
-Command	Description	Example	Developer Tip
+<tr>
+<td width="20%" valign="top">Command </td>	<td width="30%" valign="top">Description </td>	<td width="25%" valign="top">Example </td><td width="25%" valign="top">	Developer Tip</td>
+</td>tr>
 @@VERSION	SQL Server version info	SELECT @@VERSION;	Useful for debugging environment differences (Dev vs Prod).
 @@SERVERNAME	Server name	SELECT @@SERVERNAME;	Verify which server you are connected to.
 @@SPID	Current session ID	SELECT @@SPID;	Useful when troubleshooting blocking.
