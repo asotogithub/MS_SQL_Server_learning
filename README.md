@@ -11,8 +11,7 @@ Introduction to MS SQL Server
 <td width="20%" valign="top">Command </td>	<td width="30%" valign="top">Description </td>	<td width="25%" valign="top">Example </td><td width="25%" valign="top">	Developer Tip</td>
 </tr>
 <tr>
-  <td>
-@@VERSION	SQL Server version info	SELECT @@VERSION;	Useful for debugging environment differences (Dev vs Prod).
+  <td> @@VERSION	</td><td>SQL Server version info		</td><td>SELECT @@VERSION;		</td><td>Useful for debugging environment differences (Dev vs Prod).	</td><td>
 @@SERVERNAME	Server name	SELECT @@SERVERNAME;	Verify which server you are connected to.
 @@SPID	Current session ID	SELECT @@SPID;	Useful when troubleshooting blocking.
 @@ROWCOUNT	Rows affected by last statement	SELECT @@ROWCOUNT;	Always read immediately after DML; next statement resets it.
