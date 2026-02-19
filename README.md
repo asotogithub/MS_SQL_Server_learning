@@ -13,33 +13,33 @@ Introduction to MS SQL Server
 <tr>
   <td> @@VERSION	</td><td>SQL Server version info		</td><td>SELECT @@VERSION;		</td><td>Useful for debugging environment differences (Dev vs Prod).	</td></tr>
 <tr>
-  <td>@@SERVERNAME	Server name	SELECT @@SERVERNAME;	Verify which server you are connected to.</td></tr>
+  <td>@@SERVERNAME</td><td>	Server name</td><td>	SELECT @@SERVERNAME;</td><td>	Verify which server you are connected to.</td></tr>
 <tr>
-  <td>@@SPID	Current session ID	SELECT @@SPID;	Useful when troubleshooting blocking.</td></tr>
+  <td>@@SPID</td><td>	Current session ID</td><td>	SELECT @@SPID;</td><td>	Useful when troubleshooting blocking.</td></tr>
 <tr>
-  <td>@@ROWCOUNT	Rows affected by last statement	SELECT @@ROWCOUNT;	Always read immediately after DML; next statement resets it.</td></tr>
+  <td>@@ROWCOUNT</td><td>	Rows affected by last statement</td><td>	SELECT @@ROWCOUNT;</td><td>	Always read immediately after DML; next statement resets it.</td></tr>
 <tr>
-  <td>@@ERROR	Error number of last statement	SELECT @@ERROR;	Legacy. Prefer TRY/CATCH.</td></tr>
+  <td>@@ERROR</td><td>	Error number of last statement</td><td>	SELECT @@ERROR;</td><td>	Legacy. Prefer TRY/CATCH.</td></tr>
 <tr>
-  <td>@@IDENTITY	Last identity value in session	SELECT @@IDENTITY;	❌ Avoid – may return value from trigger.</td></tr>
+  <td>@@IDENTITY</td><td>	Last identity value in session</td><td>	SELECT @@IDENTITY;</td><td>	❌ Avoid – may return value from trigger.</td></tr>
 <tr>
-  <td>@@TRANCOUNT	Number of open transactions	SELECT @@TRANCOUNT;	Useful to detect open transactions.</td></tr>
+  <td>@@TRANCOUNT</td><td>	Number of open transactions</td><td>	SELECT @@TRANCOUNT;	</td><td>Useful to detect open transactions.</td></tr>
 <tr>
-  <td>@@CONNECTIONS	Total connections since start	SELECT @@CONNECTIONS;	Good for monitoring.</td></tr>
+  <td>@@CONNECTIONS</td><td>	Total connections since start</td><td>	SELECT @@CONNECTIONS;</td><td>	Good for monitoring.</td></tr>
 <tr>
-  <td>@@CPU_BUSY	CPU time used by SQL Server	SELECT @@CPU_BUSY;	Basic performance indicator.</td></tr>
+  <td>@@CPU_BUSY</td><td>	CPU time used by SQL Server</td><td>	SELECT @@CPU_BUSY;</td><td>	Basic performance indicator.</td></tr>
 <tr>
-  <td>@@TOTAL_READ	Disk reads since start	SELECT @@TOTAL_READ;	Used for server diagnostics.</td></tr>
+  <td>@@TOTAL_READ</td><td>	Disk reads since start</td><td>	SELECT @@TOTAL_READ;</td><td>	Used for server diagnostics.</td></tr>
 <tr>
-  <td>@@TOTAL_WRITE	Disk writes since start	SELECT @@TOTAL_WRITE;	Monitor IO activity.</td></tr>
+  <td>@@TOTAL_WRITE</td><td>	Disk writes since start</td><td>	SELECT @@TOTAL_WRITE;</td><td>	Monitor IO activity.</td></tr>
 <tr>
-  <td>@@LOCK_TIMEOUT	Current lock timeout setting	SELECT @@LOCK_TIMEOUT;	Important in high-concurrency systems.</td></tr>
+  <td>@@LOCK_TIMEOUT</td><td>	Current lock timeout setting</td><td>	SELECT @@LOCK_TIMEOUT;</td><td>	Important in high-concurrency systems.</td></tr>
 <tr>
-  <td>@@LANGUAGE	Current session language	SELECT @@LANGUAGE;	Affects date formats & messages.</td></tr>
+  <td>@@LANGUAGE</td><td>	Current session language</td><td>	SELECT @@LANGUAGE;</td><td>	Affects date formats & messages.</td></tr>
 <tr>
-  <td>@@DATEFIRST	First day of week setting	SELECT @@DATEFIRST;	Important when calculating week numbers.</td></tr>
+  <td>@@DATEFIRST</td><td>	First day of week setting</td><td>	SELECT @@DATEFIRST;</td><td>	Important when calculating week numbers.</td></tr>
 <tr>
-  <td>@@MAX_CONNECTIONS	Maximum allowed connections	SELECT @@MAX_CONNECTIONS;	Capacity planning.</td></tr>
+  <td>@@MAX_CONNECTIONS</td><td>	Maximum allowed connections</td><td>	SELECT @@MAX_CONNECTIONS;	</td><td>Capacity planning.</td></tr>
 
 </td>
 </tr>
