@@ -5,7 +5,11 @@ Introduction to MS SQL Server
 # T-SQL (Transact SQL Lenguaje)
 
 # Common @@ Variables
-📘 Common @@ System Functions in SQL Server
+###📘 Common @@ System Functions in SQL Server
+<table>
+<tr>
+<td width="33%" valign="top">
+
 Command	Description	Example	Developer Tip
 @@VERSION	SQL Server version info	SELECT @@VERSION;	Useful for debugging environment differences (Dev vs Prod).
 @@SERVERNAME	Server name	SELECT @@SERVERNAME;	Verify which server you are connected to.
@@ -22,3 +26,7 @@ Command	Description	Example	Developer Tip
 @@LANGUAGE	Current session language	SELECT @@LANGUAGE;	Affects date formats & messages.
 @@DATEFIRST	First day of week setting	SELECT @@DATEFIRST;	Important when calculating week numbers.
 @@MAX_CONNECTIONS	Maximum allowed connections	SELECT @@MAX_CONNECTIONS;	Capacity planning.
+
+</td>
+</tr>
+</table>
