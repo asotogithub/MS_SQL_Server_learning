@@ -5,7 +5,7 @@ Introduction to MS SQL Server
 # T-SQL (Transact SQL Lenguaje)
 
 # Common @@ Variables
-###📘 Common @@ System Functions in SQL Server
+#📘 Common @@ System Functions in SQL Server 
 <table>
 <tr>
 <td width="33%" valign="top">
