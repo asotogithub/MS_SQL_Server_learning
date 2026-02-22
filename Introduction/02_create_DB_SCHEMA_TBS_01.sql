@@ -1,3 +1,9 @@
+--- 
+-- CREATE DATABASE, SCHEMAS
+-- NOTE: THE SCHEMAS IS USING TO ORGANOZATION OF THE TABLES AND OTHERS OBJECTS THAT WE CAN TO CREATE IN THE DATABASE.
+--     We have been create a database with some schemas to display the examples.
+---
+
 CREATE DATABASE DB_NEW_DB;
 GO
 USE DB_NEW_DB;
